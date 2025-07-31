@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, redirect
+from flask import Flask, request, render_template, redirect # type: ignore
 import os
 import pandas as pd
 import requests
